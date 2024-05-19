@@ -2,6 +2,16 @@
 
 ---
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Acknowledgments](#acknowledgments)
+
+---
+
 ## Overview
 
 This Python VoiceBot Application integrates the power of AssemblyAI, ElevenLabs, and OpenAI to create a dynamic voice-based interaction system. With this application, users can engage in conversations, ask questions, and receive responses in natural language, enhancing user experience and productivity.
@@ -11,7 +21,7 @@ This Python VoiceBot Application integrates the power of AssemblyAI, ElevenLabs,
 ## Features
 
 - **Voice Recognition**: Utilizes AssemblyAI for accurate speech-to-text conversion, enabling seamless communication.
-- **Conversation Management**: Employs ElevenLabs for context-aware conversation management, ensuring smooth interactions.
+- **Conversation Management**: Employs ElevenLabs for text-to-speech conversion, ensuring smooth interactions.
 - **AI Response Generation**: Harnesses OpenAI for generating intelligent responses based on user queries, enhancing engagement.
 
 ---
@@ -21,21 +31,13 @@ This Python VoiceBot Application integrates the power of AssemblyAI, ElevenLabs,
 1. Clone the repository from GitHub:
 
     ```
-    git clone https://github.com/your-repo/voicebot.git
+    git clone https://github.com/tyloones/ai_voice_bot.git
     ```
 
 2. Install dependencies using pip:
 
     ```
     pip install -r requirements.txt
-    ```
-
-3. Set up API keys for AssemblyAI, ElevenLabs, and OpenAI.  create a copy of `sample.env` file called `.env` and populate it with the relevant API Keys:
-
-    ```python
-    AAI_KEY = 'your_assemblyai_api_key'
-    ELLABS_KEY = 'your_elevenlabs_api_key'
-    OPENAI_KEY = 'your_openai_api_key'
     ```
 
 ---
@@ -54,29 +56,16 @@ This Python VoiceBot Application integrates the power of AssemblyAI, ElevenLabs,
 
 ---
 
-## Configuration
-
-- `config.py`: Configure API keys for AssemblyAI, ElevenLabs, and OpenAI.
-
-
----
-
-## Contributing
-
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
-
----
-
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for more details. For more information about the MIT License, visit [opensource.org](https://opensource.org/licenses/MIT).
+
 ---
 
 ## Acknowledgments
 
 - **AssemblyAI**: For providing accurate speech-to-text transcription services.
-- **ElevenLabs**: For enabling context-aware conversation management.
+- **ElevenLabs**: For enabling text-to-speech conversion.
 - **OpenAI**: For empowering intelligent response generation through AI technology.
 
 ---
